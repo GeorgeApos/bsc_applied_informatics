@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login_activity_new"
+    android:orientation="vertical"
+    android:weightSum="4"
+    android:background="@color/colorPrimary">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="48dp"
+            android:layout_marginRight="48dp"
+            android:layout_centerVertical="true">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/segoe_ui_bold"
+                android:text="Welcome to uomScore"
+                android:textColor="@color/white"
+                android:textSize="36dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:text="We missed you"
+                android:fontFamily="@font/segoe_ui_semibold"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:background="@drawable/card_background">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorTextBlack"
+            android:textSize="26dp"
+            android:text="LOGIN"
+            android:fontFamily="@font/segoe_ui_semibold"
+            android:layout_marginTop="36dp"
+            android:layout_marginLeft="48dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_centerVertical="true">
+            <EditText
+                android:id="@+id/login_email"
+                android:drawableRight="@drawable/ic_account"
+                android:drawableTint="@color/colorTextBlack"
+                android:textColor="@color/colorTextBlack"
+                android:hint="someone@gmail.com"
+                android:paddingLeft="26dp"
+                android:paddingRight="26dp"
+                android:inputType="textEmailAddress"
+                android:fontFamily="@font/segoe_ui_semibold"
+                android:background="@drawable/edit_background"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginLeft="48dp"
+                android:layout_marginRight="48dp"/>
+            <EditText
+                android:id="@+id/login_password"
+                android:layout_marginTop="24dp"
+                android:drawableRight="@drawable/ic_lock"
+                android:drawableTint="@color/colorTextBlack"
+                android:textColor="@color/colorTextBlack"
+                android:hint="password"
+                android:paddingLeft="26dp"
+                android:paddingRight="26dp"
+                android:inputType="textPassword"
+                android:fontFamily="@font/segoe_ui_semibold"
+                android:background="@drawable/edit_background"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginLeft="48dp"
+                android:layout_marginRight="48dp"/>
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="48dp"
+                android:layout_marginTop="18dp"
+                android:text="Remember me"
+                android:textSize="16dp"
+                android:fontFamily="@font/segoe_ui_semibold"
+                android:textColor="@color/colorTextBlack"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                android:layout_marginTop="24dp"
+                android:layout_marginLeft="48dp"
+                android:layout_marginRight="48dp">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorTextBlack"
+                    android:textSize="18dp"
+                    android:text="Need Help?"
+                    android:fontFamily="@font/segoe_ui_semibold"
+                    android:layout_marginLeft="12dp"
+                    android:layout_weight="1"/>
+                <android.widget.Button
+                    android:id="@+id/sign_in_button"
+                    android:layout_width="0dp"
+                    android:layout_height="52dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_background"
+                    android:text="Sign in"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="16dp"
+                    android:fontFamily="@font/segoe_ui_semibold"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginBottom="26dp"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextBlack"
+                android:textSize="18dp"
+                android:text="Don't have an account?"
+                android:fontFamily="@font/segoe_ui_semibold"
+                android:layout_marginLeft="12dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextPrimary"
+                android:textSize="18dp"
+                android:text="Register instead"
+                android:fontFamily="@font/segoe_ui_bold"
+                android:layout_marginLeft="12dp"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

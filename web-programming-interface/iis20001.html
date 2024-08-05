@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<link rel="stylesheet" href="iis20001.css">
+</head>
+
+<body>
+    <div class="header">
+        <h1>George - David Apostolidis | iis20001</h1>
+        <h3> Configure your GT Super Sportscar</h3>
+    </div>
+
+    <div class="row">
+        <div class="col-3 col-s-3 menu">
+            <h1 id="hlist">Top 5 best sports cars 2021</h1>
+            <ul>
+                <li onclick='window.location.href = "https://www.porsche.com/international/models/911/"'>Porsche 911</li>
+                <li onclick='window.location.href = "https://www.jaguar.gr/jaguar-range-f-type"'>Jaguar F-Type</li>
+                <li onclick='window.location.href = "https://www.porsche.com/central-eastern-europe/en/_greece_/models/718/"'>Porsche 718 Cayman</li>
+                <li onclick='window.location.href = "https://www.mercedes-benz.gr/passengercars/mercedes-benz-cars/models/amg-gt/coupe-c190/explore.html"'>Mercedes-AMG GT</li>
+                <li onclick='window.location.href = "https://www.chevrolet.com/performance/corvette"'>Chevrolet Corvette C8</li>
+            </ul>
+        </div>
+
+
+        <div class="col-6 col-s-9">
+            <div class="par1">
+
+                <h1 id="hcolor">Choose a color</h1>
+                <script>
+                    var colorUrlMap = {
+                        "Black": "black.png",
+                        "White": "white.png",
+                        "Blue": "blue.png",
+                        "Red": "red.png",
+                        "Yellow": "yellow.png"
+                    };
+                </script>
+                <p id="pcolor">
+                    <select id="cars" name="cars"
+                        onchange="document.getElementById('colourimg').src = colorUrlMap[this.value];" size="5"
+                        multiple>
+                        <option value="Black">Black</option>
+                        <option value="White">White</option>
+                        <option value="Blue">Blue</option>
+                        <option value="Red">Red</option>
+                        <option value="Yellow">Yellow</option>
+                    </select>
+                    <img id="colourimg" src="black.png">
+                </p>
+
+                <h1 id="hcolor">Configuration</h1>
+                <p id="pcolor">
+                    <input type="radio" id="gtmanual" name="Configuration" value="gtmanual">
+                    <label for="gtmanual">GT Manual</label>
+                    <label style="float: right;">$17,790.00</label>
+                    <br>
+                    <input type="radio" id="gtauto" name="Configuration" value="gtauto">
+                    <label for="gtauto">GT Automatic</label>
+                    <label style="float: right;">$18,590.00</label>
+                    <br>
+                    <input type="radio" id="gtsmanual" name="Configuration" value="gtsmanual">
+                    <label for="gtsmanual">GT-S Manual</label>
+                    <label style="float: right;">$22,455.00</label>
+                    <br>
+                    <input type="radio" id="gtsports" name="Configuration" value="gtsports">
+                    <label for="gtsports">GT-S Sportshift</label>
+                    <label style="float: right;">$23,155.00</label>
+                    <br>
+                </p>
+
+                <h1 id="hcolor">Factory Option</h1>
+                <p id="pcolor">
+                    <input type="radio" id="option1" name="FactoryOption" value="option1">
+                    <label for="option1">Option Combo #1</label>
+                    <label style="float: right;">$1235.00</label>
+                    <SPAN class=li>Power Windows, Doors, Cruise Control</SPAN>
+                    <br>
+                    <input type="radio" id="option2" name="FactoryOption" value="option2">
+                    <label for="option2">Option Combo #2</label>
+                    <label style="float: right;">$3354.00</label>
+                    <SPAN class=li>Rear Spoiler and Fog Lamps</SPAN>
+                    <SPAN class=li>Keyless Entry</SPAN>
+                    <SPAN class=li>Power Tilt & Side Moonroof</SPAN>
+                    <SPAN class=li>Power Windows, Doors, Cruise Control</SPAN>
+                    <br>
+                    <input type="radio" id="option3" name="FactoryOption" value="option3">
+                    <label for="option3">Option Combo #3</label>
+                    <label style="float: right;">$0</label>
+                    <br>
+                </p>
+
+                <h1 id="hcolor">Dealer Options</h1>
+                <p id="pcolor">
+                    <input type="checkbox" id="deloption1" name="DealerOption" value="option1">
+                    <label for="option1">Upgraded Stereo System</label>
+                    <label style="float: right;">$550.00</label>
+
+                    <br>
+                    <input type="checkbox" id="deloption2" name="DealerOption" value="option2">
+                    <label for="option2">VIP Security System</label>
+                    <label style="float: right;">$399.00</label>
+
+                    <br>
+                    <input type="checkbox" id="deloption3" name="DealerOption" value="option3">
+                    <label for="option3">Auto-Dimming Mirror</label>
+                    <label style="float: right;">$295.00</label>
+                    <br>
+                </p>
+
+                <h1 id="hcolor">Total Price</h1>
+                <p id="pcolor">
+                    <button type="button" id='result' style="float: right;">Calculate</button>
+                    <textarea id="resultText" name="resultText" rows="2" cols="50"> </textarea>
+                </p>
+
+            </div>
+        </div>
+
+        <div class="col-3 col-s-12">
+            <div class="aside">
+                <h2>Incredible Supercar Facts</h2>
+                <p>1. Lamborghinis Weren’t Always Luxurious</p>
+                <p>2. Bentley Teaches Ice Driving</p>
+                <p>3. Porsche Sometimes Fails to Turn a Profit</p>
+                <p>4. Bugatti’s Secret Radiators</p>
+                <p>5. Most Are Customized Pieces</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>Course : Internet Programming (Front-End)
+            <br>
+            Semester : 4th
+        </p>
+    </div>
+    <script src="iis20001.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Files/University/Android Development/Mobile-Development-Assignment/app/src/main/res/layout/activity_main.xml" value="0.17074275362318841" />
+        <entry key="..\:/Files/University/Applied Informatics/6th Semester/Android Dev/Android/Mobile-Development-Assignment/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2685" />
+        <entry key="..\:/Files/University/Applied Informatics/6th Semester/Android Dev/Android/Mobile-Development-Assignment/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.3635" />
+        <entry key="..\:/Files/University/Applied Informatics/6th Semester/Android Dev/Android/Mobile-Development-Assignment/app/src/main/res/drawable/ic_baseline_sports_basketball_24.xml" value="0.3635" />
+        <entry key="..\:/Files/University/Applied Informatics/6th Semester/Android Dev/Android/Mobile-Development-Assignment/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2685" />
+        <entry key="..\:/Files/University/Applied Informatics/6th Semester/Android Dev/Android/Mobile-Development-Assignment/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Files/University/Applied Informatics/6th Semester/Android Dev/Android/Mobile-Development-Assignment/app/src/main/res/layout/fragment_favourite.xml" value="0.3625" />
+        <entry key="..\:/Files/University/Applied Informatics/6th Semester/Android Dev/Android/Mobile-Development-Assignment/app/src/main/res/layout/fragment_home.xml" value="0.3625" />
+        <entry key="..\:/Files/University/Applied Informatics/6th Semester/Android Dev/Android/Mobile-Development-Assignment/app/src/main/res/layout/fragment_r1.xml" value="0.3625" />
+        <entry key="..\:/Files/University/Applied Informatics/6th Semester/Android Dev/Android/Mobile-Development-Assignment/app/src/main/res/layout/fragment_r10.xml" value="0.3625" />
+        <entry key="..\:/Files/University/Applied Informatics/6th Semester/Android Dev/Android/Mobile-Development-Assignment/app/src/main/res/layout/fragment_r3.xml" value="0.3625" />
+        <entry key="..\:/Files/University/Applied Informatics/6th Semester/Android Dev/Android/Mobile-Development-Assignment/app/src/main/res/layout/fragment_r4.xml" value="0.3625" />
+        <entry key="..\:/Files/University/Applied Informatics/6th Semester/Android Dev/Android/Mobile-Development-Assignment/app/src/main/res/layout/fragment_r5.xml" value="0.3625" />
+        <entry key="..\:/Files/University/Applied Informatics/6th Semester/Android Dev/Android/Mobile-Development-Assignment/app/src/main/res/layout/fragment_r6.xml" value="0.3625" />
+        <entry key="..\:/Files/University/Applied Informatics/6th Semester/Android Dev/Android/Mobile-Development-Assignment/app/src/main/res/layout/fragment_r7.xml" value="0.3625" />
+        <entry key="..\:/Files/University/Applied Informatics/6th Semester/Android Dev/Android/Mobile-Development-Assignment/app/src/main/res/layout/fragment_r8.xml" value="0.3625" />
+        <entry key="..\:/Files/University/Applied Informatics/6th Semester/Android Dev/Android/Mobile-Development-Assignment/app/src/main/res/layout/fragment_r9.xml" value="0.3625" />
+        <entry key="..\:/Files/University/Applied Informatics/6th Semester/Android Dev/Android/Mobile-Development-Assignment/app/src/main/res/layout/fragment_ranking.xml" value="0.3625" />
+        <entry key="..\:/Files/University/Applied Informatics/6th Semester/Android Dev/Android/Mobile-Development-Assignment/app/src/main/res/layout/login_fragment.xml" value="0.358695652173913" />
+        <entry key="..\:/Files/University/Applied Informatics/6th Semester/Android Dev/Android/Mobile-Development-Assignment/app/src/main/res/layout/r2.xml" value="0.358695652173913" />
+        <entry key="..\:/Files/University/Applied Informatics/6th Semester/Android Dev/Android/Mobile-Development-Assignment/app/src/main/res/menu/menu.xml" value="0.3625" />
+        <entry key="..\:/Files/University/Applied Informatics/6th Semester/Android Dev/Mobile-Development-Assignment/app/src/main/res/layout/activity_login_new.xml" value="0.1762917933130699" />
+        <entry key="..\:/Files/University/Applied Informatics/6th Semester/Android Dev/Mobile-Development-Assignment/app/src/main/res/layout/fragment_main.xml" value="0.22" />
+        <entry key="..\:/Files/University/Applied Informatics/6th Semester/Android Dev/Mobile-Development-Assignment/app/src/main/res/layout/fragment_r10.xml" value="0.3625" />
+        <entry key="..\:/Files/University/Applied Informatics/6th Semester/Android Dev/Mobile-Development-Assignment/app/src/main/res/layout/fragment_r2.xml" value="0.32326985601486297" />
+        <entry key="..\:/Files/University/Applied Informatics/6th Semester/Android Dev/Mobile-Development-Assignment/app/src/main/res/layout/fragment_r6.xml" value="0.3625" />
+        <entry key="app/src/main/res/drawable-v24/button_background.xml" value="0.313" />
+        <entry key="app/src/main/res/drawable-v24/card_background.xml" value="0.313" />
+        <entry key="app/src/main/res/drawable-v24/edit_background.xml" value="0.313" />
+        <entry key="app/src/main/res/drawable-v24/ic_account.xml" value="0.313" />
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.3175" />
+        <entry key="app/src/main/res/drawable-v24/ic_lock.xml" value="0.313" />
+        <entry key="app/src/main/res/drawable/circular_image_layer.xml" value="0.284" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.3175" />
+        <entry key="app/src/main/res/drawable/ic_ramen_background.xml" value="0.3175" />
+        <entry key="app/src/main/res/drawable/img.xml" value="0.3175" />
+        <entry key="app/src/main/res/drawable/r10_card_background.xml" value="0.284" />
+        <entry key="app/src/main/res/drawable/r10_list_circle.xml" value="0.3175" />
+        <entry key="app/src/main/res/drawable/r10_list_item.xml" value="0.3175" />
+        <entry key="app/src/main/res/layout/activity_login_new.xml" value="0.302536231884058" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.2604166666666667" />
+        <entry key="app/src/main/res/layout/fragment_favourite.xml" value="0.302536231884058" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.302536231884058" />
+        <entry key="app/src/main/res/layout/fragment_main.xml" value="0.25625" />
+        <entry key="app/src/main/res/layout/fragment_r1.xml" value="0.30978260869565216" />
+        <entry key="app/src/main/res/layout/fragment_r10.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_r2.xml" value="0.303125" />
+        <entry key="app/src/main/res/layout/fragment_r3.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_ranking.xml" value="0.30978260869565216" />
+        <entry key="app/src/main/res/layout/r2_activity.xml" value="0.25625" />
+        <entry key="app/src/main/res/menu/menu.xml" value="0.1" />
+        <entry key="app/src/main/res/menu/r10_filter_menu.xml" value="0.3145833333333333" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_ramen.xml" value="0.1895" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_ramen_round.xml" value="0.1895" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

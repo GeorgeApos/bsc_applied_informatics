@@ -1,0 +1,629 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".r6Activity">
+
+
+        <LinearLayout
+            android:id="@+id/teams_score"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            tools:ignore="MissingConstraints">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                tools:context="com.example.android.courtcounter.MainActivity">
+
+                <TextView
+                    android:id="@+id/teamAName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:gravity="center_horizontal"
+                    android:padding="4dp"
+                    android:text="Team A"
+                    android:textColor="#616161"
+                    android:textSize="14sp" />
+
+                <ImageView
+                    android:id="@+id/teamAImage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="24dp"
+                    android:src="@drawable/circular_image_layer" />
+
+                <TextView
+                    android:id="@+id/teamAScore"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="24dp"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center_horizontal"
+                    android:padding="4dp"
+                    android:text="0"
+                    android:textColor="#000000"
+                    android:textSize="56sp" />
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="16dp"
+                android:background="@android:color/darker_gray" />
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                tools:context="com.example.android.courtcounter.MainActivity">
+
+                <TextView
+                    android:id="@+id/teamBName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:gravity="center_horizontal"
+                    android:padding="4dp"
+                    android:text="Team B"
+                    android:textColor="#616161"
+                    android:textSize="14sp" />
+
+                <ImageView
+                    android:id="@+id/teamBImage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="24dp"
+                    android:src="@drawable/circular_image_layer" />
+
+                <TextView
+                    android:id="@+id/teamBScore"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="24dp"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center_horizontal"
+                    android:padding="4dp"
+                    android:text="0"
+                    android:textColor="#000000"
+                    android:textSize="56dp" />
+
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+<!--        <RelativeLayout-->
+<!--            xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--            xmlns:tools="http://schemas.android.com/tools"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="0dp"-->
+<!--            android:id="@+id/stats_percent"-->
+<!--            app:layout_constraintTop_toBottomOf="@id/teams_score"-->
+<!--            app:layout_constraintBottom_toTopOf="@id/stats">-->
+
+
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:orientation="horizontal">-->
+
+<!--                <LinearLayout-->
+<!--                    android:layout_weight="1"-->
+<!--                    android:layout_width="0dp"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:orientation="vertical"-->
+<!--                    tools:context="com.example.android.courtcounter.MainActivity">-->
+
+<!--                    <TextView-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="50dp"-->
+<!--                        android:layout_marginBottom="24dp"-->
+<!--                        android:fontFamily="sans-serif"-->
+<!--                        android:gravity="center_horizontal"-->
+<!--                        android:padding="4dp"-->
+<!--                        android:text="0"-->
+<!--                        android:textColor="#000000"-->
+<!--                        android:textSize="16sp" />-->
+<!--                    <TextView-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="50dp"-->
+<!--                        android:layout_marginBottom="24dp"-->
+<!--                        android:fontFamily="sans-serif"-->
+<!--                        android:gravity="center_horizontal"-->
+<!--                        android:padding="4dp"-->
+<!--                        android:text="0"-->
+<!--                        android:textColor="#000000"-->
+<!--                        android:textSize="16sp" />-->
+<!--                </LinearLayout>-->
+<!--            <View-->
+<!--                android:layout_width="1dp"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:background="@android:color/darker_gray"-->
+<!--                android:layout_marginTop="16dp"-->
+<!--                />-->
+<!--            <LinearLayout-->
+<!--                android:layout_weight="1"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:orientation="vertical"-->
+<!--                tools:context="com.example.android.courtcounter.MainActivity">-->
+
+<!--                <TextView-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="50dp"-->
+<!--                    android:layout_marginBottom="24dp"-->
+<!--                    android:fontFamily="sans-serif"-->
+<!--                    android:gravity="center_horizontal"-->
+<!--                    android:padding="4dp"-->
+<!--                    android:text="Free Throws"-->
+<!--                    android:textColor="#000000"-->
+<!--                    android:textSize="16sp" />-->
+<!--                <TextView-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:layout_marginBottom="24dp"-->
+<!--                    android:fontFamily="sans-serif"-->
+<!--                    android:gravity="center_horizontal"-->
+<!--                    android:padding="4dp"-->
+<!--                    android:text="2 Pointers"-->
+<!--                    android:textColor="#000000"-->
+<!--                    android:textSize="16sp" />-->
+
+<!--            </LinearLayout>-->
+<!--            <View-->
+<!--                android:layout_width="1dp"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:background="@android:color/darker_gray"-->
+<!--                android:layout_marginTop="16dp"-->
+<!--                />-->
+<!--            <LinearLayout-->
+<!--                android:layout_weight="1"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:orientation="vertical"-->
+<!--                tools:context="com.example.android.courtcounter.MainActivity">-->
+
+<!--                <TextView-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginBottom="24dp"-->
+<!--                    android:fontFamily="sans-serif"-->
+<!--                    android:gravity="center_horizontal"-->
+<!--                    android:padding="4dp"-->
+<!--                    android:text="0"-->
+<!--                    android:textColor="#000000"-->
+<!--                    android:textSize="16sp" />-->
+<!--                <TextView-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginBottom="24dp"-->
+<!--                    android:fontFamily="sans-serif"-->
+<!--                    android:gravity="center_horizontal"-->
+<!--                    android:padding="4dp"-->
+<!--                    android:text="0"-->
+<!--                    android:textColor="#000000"-->
+<!--                    android:textSize="16sp" />-->
+<!--            </LinearLayout>-->
+
+<!--            </LinearLayout>-->
+
+<!--        </RelativeLayout>-->
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/stats"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/bottomNav"
+            app:layout_constraintTop_toBottomOf="@+id/teams_score" >
+
+
+            <RelativeLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        tools:context="com.example.android.courtcounter.MainActivity">
+
+
+                        <TextView
+                            android:id="@+id/teamAFreeThrows"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:padding="4dp"
+                            android:fontFamily="sans-serif"
+                            android:textColor="#000000"
+                            android:textSize="16sp"
+                            android:layout_marginBottom="24dp"
+                            android:text="0/0 (-%)" />
+                        <TextView
+                            android:id="@+id/teamA2Pointers"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:padding="4dp"
+                            android:fontFamily="sans-serif"
+                            android:textColor="#000000"
+                            android:textSize="16sp"
+                            android:layout_marginBottom="24dp"
+                            android:text="0/0 (-%)" />
+                        <TextView
+                            android:id="@+id/teamA3Pointers"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:padding="4dp"
+                            android:fontFamily="sans-serif"
+                            android:textColor="#000000"
+                            android:textSize="16sp"
+                            android:layout_marginBottom="24dp"
+                            android:text="0/0 (-%)" />
+                        <TextView
+                            android:id="@+id/teamARebound"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:padding="4dp"
+                            android:fontFamily="sans-serif"
+                            android:textColor="#000000"
+                            android:textSize="16sp"
+                            android:layout_marginBottom="24dp"
+                            android:text="0" />
+                        <TextView
+                            android:id="@+id/teamAFouls"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:padding="4dp"
+                            android:fontFamily="sans-serif"
+                            android:textColor="#000000"
+                            android:textSize="16sp"
+                            android:layout_marginBottom="24dp"
+                            android:text="0" />
+                        <TextView
+                            android:id="@+id/teamAAssists"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:padding="4dp"
+                            android:fontFamily="sans-serif"
+                            android:textColor="#000000"
+                            android:textSize="16sp"
+                            android:layout_marginBottom="24dp"
+                            android:text="0" />
+                        <TextView
+                            android:id="@+id/teamABlocks"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:padding="4dp"
+                            android:fontFamily="sans-serif"
+                            android:textColor="#000000"
+                            android:textSize="16sp"
+                            android:layout_marginBottom="24dp"
+                            android:text="0" />
+                        <TextView
+                            android:id="@+id/teamAMistakes"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:padding="4dp"
+                            android:fontFamily="sans-serif"
+                            android:textColor="#000000"
+                            android:textSize="16sp"
+                            android:layout_marginBottom="24dp"
+                            android:text="0" />
+                        <TextView
+                            android:id="@+id/teamASteals"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:padding="4dp"
+                            android:fontFamily="sans-serif"
+                            android:textColor="#000000"
+                            android:textSize="16sp"
+                            android:layout_marginBottom="24dp"
+                            android:text="0" />
+
+
+
+
+                    </LinearLayout>
+
+
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/darker_gray"
+                        android:layout_marginTop="16dp"
+                        />
+
+                    <LinearLayout
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        tools:context="com.example.android.courtcounter.MainActivity">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:padding="4dp"
+                            android:fontFamily="sans-serif"
+                            android:textColor="#000000"
+                            android:textSize="16sp"
+                            android:layout_marginBottom="24dp"
+                            android:text="Free Throws" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:padding="4dp"
+                            android:fontFamily="sans-serif"
+                            android:textColor="#000000"
+                            android:textSize="16sp"
+                            android:layout_marginBottom="24dp"
+                            android:text="2 Pointers" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:padding="4dp"
+                            android:fontFamily="sans-serif"
+                            android:textColor="#000000"
+                            android:textSize="16sp"
+                            android:layout_marginBottom="24dp"
+                            android:text="3 Pointers" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:padding="4dp"
+                            android:fontFamily="sans-serif"
+                            android:textColor="#000000"
+                            android:textSize="16sp"
+                            android:layout_marginBottom="24dp"
+                            android:text="Rebound" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:padding="4dp"
+                            android:fontFamily="sans-serif"
+                            android:textColor="#000000"
+                            android:textSize="16sp"
+                            android:layout_marginBottom="24dp"
+                            android:text="Fouls" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:padding="4dp"
+                            android:fontFamily="sans-serif"
+                            android:textColor="#000000"
+                            android:textSize="16sp"
+                            android:layout_marginBottom="24dp"
+                            android:text="Assists" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:padding="4dp"
+                            android:fontFamily="sans-serif"
+                            android:textColor="#000000"
+                            android:textSize="16sp"
+                            android:layout_marginBottom="24dp"
+                            android:text="Blocks" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:padding="4dp"
+                            android:fontFamily="sans-serif"
+                            android:textColor="#000000"
+                            android:textSize="16sp"
+                            android:layout_marginBottom="24dp"
+                            android:text="Mistakes" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:padding="4dp"
+                            android:fontFamily="sans-serif"
+                            android:textColor="#000000"
+                            android:textSize="16sp"
+                            android:layout_marginBottom="24dp"
+                            android:text="Steals" />
+
+
+
+                    </LinearLayout>
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/darker_gray"
+                        android:layout_marginTop="16dp"
+                        />
+
+
+                    <LinearLayout
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        tools:context="com.example.android.courtcounter.MainActivity">
+
+                        <TextView
+                            android:id="@+id/teamBFreeThrows"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:padding="4dp"
+                            android:fontFamily="sans-serif"
+                            android:textColor="#000000"
+                            android:textSize="16sp"
+                            android:layout_marginBottom="24dp"
+                            android:text="0/0 (-%)" />
+                        <TextView
+                            android:id="@+id/teamB2Pointers"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:padding="4dp"
+                            android:fontFamily="sans-serif"
+                            android:textColor="#000000"
+                            android:textSize="16sp"
+                            android:layout_marginBottom="24dp"
+                            android:text="0/0 (-%)" />
+                        <TextView
+                            android:id="@+id/teamB3Pointers"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:padding="4dp"
+                            android:fontFamily="sans-serif"
+                            android:textColor="#000000"
+                            android:textSize="16sp"
+                            android:layout_marginBottom="24dp"
+                            android:text="0/0 (-%)" />
+                        <TextView
+                            android:id="@+id/teamBRebound"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:padding="4dp"
+                            android:fontFamily="sans-serif"
+                            android:textColor="#000000"
+                            android:textSize="16sp"
+                            android:layout_marginBottom="24dp"
+                            android:text="0" />
+                        <TextView
+                            android:id="@+id/teamBFouls"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:padding="4dp"
+                            android:fontFamily="sans-serif"
+                            android:textColor="#000000"
+                            android:textSize="16sp"
+                            android:layout_marginBottom="24dp"
+                            android:text="0" />
+                        <TextView
+                            android:id="@+id/teamBAssists"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:padding="4dp"
+                            android:fontFamily="sans-serif"
+                            android:textColor="#000000"
+                            android:textSize="16sp"
+                            android:layout_marginBottom="24dp"
+                            android:text="0" />
+                        <TextView
+                            android:id="@+id/teamBBlocks"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:padding="4dp"
+                            android:fontFamily="sans-serif"
+                            android:textColor="#000000"
+                            android:textSize="16sp"
+                            android:layout_marginBottom="24dp"
+                            android:text="0" />
+                        <TextView
+                            android:id="@+id/teamBMistakes"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:padding="4dp"
+                            android:fontFamily="sans-serif"
+                            android:textColor="#000000"
+                            android:textSize="16sp"
+                            android:layout_marginBottom="24dp"
+                            android:text="0" />
+                        <TextView
+                            android:id="@+id/teamBSteals"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:padding="4dp"
+                            android:fontFamily="sans-serif"
+                            android:textColor="#000000"
+                            android:textSize="16sp"
+                            android:layout_marginBottom="24dp"
+                            android:text="0" />
+
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+        </ScrollView>
+
+
+
+
+
+
+
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bottomNav"
+        android:layout_alignParentBottom="true"
+        app:menu="@menu/menu"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+
+
+<!--            <Space-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"></Space>-->
+
+<!--    <FrameLayout-->
+<!--        android:id="@+id/container"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent" />-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
